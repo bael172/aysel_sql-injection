@@ -6,3 +6,5 @@ const User = sequelize.define("user",{
     password:{type:DataTypes.STRING},
     secret:{type:DataTypes.INTEGER}
 })
+
+module.exports = {User}
